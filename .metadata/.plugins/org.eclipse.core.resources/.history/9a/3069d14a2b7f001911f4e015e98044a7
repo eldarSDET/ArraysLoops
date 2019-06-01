@@ -1,0 +1,17 @@
+package store;
+
+public class GroseryStore implements store {
+
+	@Override
+	public void sellItem() {
+		System.out.println("Selling fruits");
+		
+	}
+
+	@Override
+	public void displayItem() {
+		System.out.println("Displaying candies");
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;ArrayList/src/ArrayList1/ss.java&apos;" deleteContents="false" description="Delete resource &apos;ArrayList/src/ArrayList1/ss.java&apos;" element1="/ArrayList/src/ArrayList1/ss.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1557778724725"/>
+</session>

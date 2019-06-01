@@ -1,0 +1,39 @@
+package Map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MyPractice {
+	public static void main(String[] args) {
+		Map<String, String>newMap=new HashMap<String, String>();
+		newMap.putAll(storeInMap("John", "UK"));
+		newMap.putAll(storeInMap("James", "USA"));
+		newMap.putAll(storeInMap("Julio", "Bolivia"));
+		newMap.putAll(storeInMap("Maria", "Russia"));
+		newMap.putAll(storeInMap("Bobur", "Uzbekistan"));
+		System.out.println(newMap);
+		
+		
+	}
+	
+	public static Map<String, String>storeInMap (String name, String country){
+		Map<String, String>myMap=new HashMap<>();
+		if(!myMap.containsKey(name)) {
+			myMap.put(name, country);
+			System.out.println(myMap.get(country));
+			
+		} return myMap;
+	
+		
+			
+			
+			
+		
+	
+		
+	
+	
+	}
+	
+
+}

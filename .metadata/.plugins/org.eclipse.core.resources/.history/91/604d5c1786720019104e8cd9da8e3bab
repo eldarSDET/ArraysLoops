@@ -1,0 +1,8 @@
+package examples88.Methods2.src.tests;
+
+public class libTest {
+	public static void main(String[] args) {
+		Library.library(libInfo.name);
+	}
+
+}

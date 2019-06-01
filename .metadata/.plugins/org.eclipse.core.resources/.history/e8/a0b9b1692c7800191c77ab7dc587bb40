@@ -1,0 +1,13 @@
+package project;
+
+public class accountInfo {
+	
+	public accountInfo(String name, String lastName, Integer balance, String city) {
+        
+	}
+	
+	public String toString() {
+		return null;
+	}
+
+}

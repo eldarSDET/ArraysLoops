@@ -1,0 +1,14 @@
+package loops;
+
+public class polindromePractice {
+	public static void main(String[] args) {
+		String name="elvira";
+		String m="";
+		for(int i=name.length()-1; i<name.length();i--) {
+			m+=name.charAt(i);
+		}if (m==name) {
+			System.out.println("it is polindrome");
+		}
+	}
+
+}

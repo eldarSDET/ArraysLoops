@@ -1,0 +1,26 @@
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class flower {
+	
+	public flower(String name,int price) {
+		
+	}
+	public static void main(String[] args) {
+		flower r1=new flower("rose",10 );
+		flower r2=new flower("chamomile",15 );
+		flower r3=new flower("tulip",20 );
+		Set flower=new HashSet();
+		flower.add(r1);
+		flower.add(r2);
+		flower.add(r3);
+		Iterator i=flower.iterator();
+		while(i.hasNext()) {
+			System.out.println(i.next());
+		}
+		
+		
+	}
+
+}

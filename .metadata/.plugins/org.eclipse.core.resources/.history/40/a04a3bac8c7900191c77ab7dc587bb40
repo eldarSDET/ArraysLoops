@@ -1,0 +1,29 @@
+import java.util.Set;
+import java.util.HashSet;
+
+public class SetPractice {
+	public static void main(String[] args) {
+		
+		//Set <String>set1=new HashSet<String>();
+	//	HashSet hashset=new HashSet();
+		Set set=new HashSet();
+		set.add("Techtorial");
+		set.add("Kushal");
+		set.add("Priyanka");
+		set.add("Gopal");
+		set.add("Techtorial");
+		//Set doesn't allow dublicate.
+		//Set is not ordered.
+		System.out.println(set);
+		Set set2 =new HashSet();
+		set2.add("Parvaty");
+		set2.add("Kushal");
+		set2.addAll(set);
+		System.out.println("Set2 values "+set2);
+		
+		
+		
+		
+	}
+
+}

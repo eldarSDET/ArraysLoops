@@ -1,0 +1,50 @@
+package StringBuilder;
+
+public class StrinBuilderReview {
+	public static void main(String[] args) {
+		String str="";
+		
+		for(char ch='a'; ch<='z'; ch++) {
+			str+=ch;
+			System.out.println(str);
+		}
+		
+        StringBuilder strbl=new StringBuilder("");
+		
+		for(char ch='a'; ch<='z'; ch++) {
+			strbl.append(ch);
+			
+		}
+		System.out.println("StringBuilder--->"+strbl);
+		StringBuilder builder=new StringBuilder("Techtorial ");
+		builder.append(10);
+		builder.append(" Academy ").append(2019).append(" ---> Muammer ").append(true);
+		System.out.println(builder);
+		
+		StringBuilder success =new StringBuilder("Working hard ");
+		success.append(" does not make you successful. ");
+		
+		StringBuilder truth=success.append("Thinking hard will make you successfull ");
+		System.out.println(truth);
+		System.out.println(success);
+		
+		StringBuilder person=new StringBuilder("Arslan");
+		person.charAt(1);
+		System.out.println(person.indexOf("s"));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package StringBuilder;
+
+public class StrinBuilderReview {
+	public static void main(String[] args) {
+		String str="";
+		
+		for(char ch='a'; ch<='z'; ch++) {
+			str+=ch;
+			System.out.println(str);
+		}
+		
+        StringBuilder strbl=new StringBuilder("");
+		
+		for(char ch='a'; ch<='z'; ch++) {
+			strbl.append(ch);
+			
+		}
+		System.out.println("StringBuilder--->"+strbl);
+		StringBuilder builder=new StringBuilder("Techtorial ");
+		builder.append(10);
+		builder.append(" Academy ").append(2019).append(" --->Muammer ").append(true);
+		System.out.println(builder);
+	}
+
+}

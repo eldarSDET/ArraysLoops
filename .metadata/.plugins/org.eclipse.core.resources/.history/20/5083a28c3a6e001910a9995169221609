@@ -1,0 +1,30 @@
+package utilities;
+	public class myPractice {
+		public static void main(String[] args) {
+			myPractice practice=new myPractice();
+			String day="Today is a great day";
+			System.out.println(practice.countLetters(day));
+			
+		}
+			public static  int countLetters(String str) {
+			      int count = 0;
+			      for (int i = 0; i < str.length(); i++) {
+			         if (Character.isLetter(str.charAt(i)))
+			            count++;
+			      }
+				return count;
+			   }
+			
+	
+	
+			
+   //overload methods in this class;
+  //add for loop helper method and replace for loops in the class
+//create separate class and method in it to count letter in any string (don't use any string length () method
+				
+			
+	
+
+	
+
+}

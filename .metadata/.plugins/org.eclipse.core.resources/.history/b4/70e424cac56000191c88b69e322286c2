@@ -1,0 +1,14 @@
+package examples88;
+
+public class loops {
+	public static void main(String[] args) {
+		int n=1;
+		do {
+			n++;
+			System.out.println(n);
+		}while(n<=5); 
+			System.out.println("stop");
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package WrapperClasses;
+
+public class primitivesWrappers {
+	public static void main(String[] args) {
+		int num=55;
+		Integer num2=new Integer(12);
+		
+	}
+
+}

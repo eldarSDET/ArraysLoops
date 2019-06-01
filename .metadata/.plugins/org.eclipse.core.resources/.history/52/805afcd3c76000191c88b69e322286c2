@@ -1,0 +1,20 @@
+package examples88;
+
+import java.util.Scanner;
+
+public class loops {
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		int n=0;
+		do {
+			System.out.println("enter the password. you have 3 attempts.");
+			n=input.nextInt();
+			int attempts=input.nextInt();
+			if (attempts>3) {
+				System.out.println("you lost");
+			}
+		
+		}while(n!=5);
+	
+	}
+}

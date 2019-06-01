@@ -1,0 +1,30 @@
+package examples88;
+import java.util.Scanner;
+
+public class playingWithLoop {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter you account balance");
+		int balanceAmount=scanner.nextInt();
+		System.out.println("Amount you want to withdraw");
+		
+		//50
+		while(balanceAmount>0) {
+		int	amount=scanner.nextInt();
+			balanceAmount=balanceAmount-amount;			
+		System.out.println(balanceAmount);
+		}
+		
+		
+		
+		
+		
+		
+	}
+		
+	
+	
+			 
+		
+		
+}

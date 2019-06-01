@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class nextLineExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner (System.in);
+		String Input=input.next();
+		//int lengthOfInput=Input.length();
+		//System.out.println(lengthOfInput);
+		//char letter=Input.charAt(1);
+		//System.out.println(letter);
+		int ind=Input.indexOf('i');
+		System.out.println(ind);
+	}
+
+}

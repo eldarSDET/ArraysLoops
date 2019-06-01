@@ -1,0 +1,23 @@
+package ProjectFirstDay;
+
+import java.util.Scanner;
+
+public class myPracticeFromProject {
+	public static void main(String[] args) {
+		System.out.println("Print classical");
+		Scanner scanner = new Scanner(System.in);
+		String classical = "Classical";
+		String classicalInput = scanner.next();
+		if (classicalInput.equalsIgnoreCase(classical)) {
+			System.out.println("dd");
+		}
+			
+		
+			
+				 
+			
+		
+		
+	}
+
+}

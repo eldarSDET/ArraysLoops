@@ -1,0 +1,19 @@
+package ArrayList1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class store {
+
+		static List<String>itemsToBuy;
+		static {
+			itemsToBuy=new ArrayList<>();
+			itemsToBuy.add("milk");
+			itemsToBuy.add("apples");
+			itemsToBuy.add("bread");
+			itemsToBuy.add("sugar");
+			System.out.println("Welcome to grocery store!");
+		}
+	
+
+}

@@ -1,0 +1,5 @@
+package ExceptionsExample;
+
+public class CheckedVsUchecked {
+
+}

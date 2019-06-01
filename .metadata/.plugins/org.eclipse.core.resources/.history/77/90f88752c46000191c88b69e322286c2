@@ -1,0 +1,31 @@
+package examples88;
+import java.util.Scanner;
+
+public class playingWithLoop {
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		String answer;
+		String name=input.next();
+		String listOfNames=name;
+		
+		int count=0;
+		do {
+			
+			System.out.println("Enter your name");
+			name=input.next();
+			
+			
+		    System.out.println("Are you the last student?");
+		    answer=input.next();
+		    count++;
+		      	
+		}while(!answer.equalsIgnoreCase("yes"));
+		System.out.println(count);
+		System.out.println(name);
+		
+ }
+}
+	
+	
+
+

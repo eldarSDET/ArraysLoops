@@ -1,0 +1,32 @@
+package ArrayList1;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Practice2 {
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		ArrayList<String> list=new ArrayList<>();
+		Scanner scanner=new Scanner(System.in);
+		
+		for(int i=0; i<8;i++) {
+		System.out.println("please enter the state");
+		String state=scanner.next();
+		list.add(scanner.next());
+			
+		}System.out.println(list);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

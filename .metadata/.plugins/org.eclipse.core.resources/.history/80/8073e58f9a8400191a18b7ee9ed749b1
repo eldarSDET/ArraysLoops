@@ -1,0 +1,13 @@
+package ExceptionsExample;
+
+import java.util.Scanner;
+
+public class ThrowingExceptions {
+	public static void main (String []args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Please enter your name, \n Note your name length should't be shorter than 5 characters");
+		String name=scanner.next();
+		
+	}
+
+}

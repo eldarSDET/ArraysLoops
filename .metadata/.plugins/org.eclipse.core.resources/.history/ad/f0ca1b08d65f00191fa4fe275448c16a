@@ -1,0 +1,13 @@
+package loops2;
+
+public class sumOddNumbers {
+	public static void main(String[] args) {
+	String sum=" ";
+		for(int n=0; n<=100; n++)
+			if(n%2==1) {
+				
+				System.out.print(sum=sum+n);
+			}
+	}
+
+}

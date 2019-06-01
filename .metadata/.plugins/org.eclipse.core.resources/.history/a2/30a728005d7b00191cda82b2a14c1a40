@@ -1,0 +1,10 @@
+package InheritanceOOP;
+
+public class zoo {
+	
+	public static void main(String[] args) {
+		domesticAnimals da=new domesticAnimals();
+		da.eat();
+	}
+
+}

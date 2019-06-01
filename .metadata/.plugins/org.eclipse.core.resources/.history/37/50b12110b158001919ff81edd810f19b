@@ -1,0 +1,25 @@
+package NestedIfStatement;
+
+import java.util.Scanner;
+
+public class ifElseStatement4 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("What's the longest river in the US?");
+		
+		String rightAnswer = "Missouri";
+		String yourAnswer = scanner.next();
+		
+		if(yourAnswer.equalsIgnoreCase(rightAnswer)) {
+			System.out.println("true!");
+		} else { 
+			System.out.println("game over.");
+	
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package ifElse;
+
+public class ifElseWarmUp {
+	public static void main(String[] args) {
+		
+		boolean study =true;
+		if(study==true) {
+			System.out.println("You can get the offer from the big companies");
+			System.out.println("your fortune will be better than today");//will be printed
+			
+		}
+		
+		int age =18;
+		if(age>=18)
+			System.out.println("you can get your driver licence");
+	}
+
+}

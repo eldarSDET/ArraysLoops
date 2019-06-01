@@ -1,0 +1,25 @@
+package examples88;
+import java.util.Scanner;
+
+public class playingWithLoop {
+	public static void main(String[] args) {
+		String stars="**************";
+		String spaces="          ";
+		int starNum=1;
+		int spaceNum=7;
+		for(; spaceNum>=0; spaceNum--,starNum+=2  ) {
+			System.out.print(spaces.substring(spaceNum,0));
+			System.out.println(stars.substring(starNum,15));
+			
+		}
+		
+		
+		
+	}
+		
+	
+	
+			 
+		
+		
+}

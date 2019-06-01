@@ -1,0 +1,22 @@
+package examples88;
+
+
+public class playingWithLoop {
+	public static void main(String[] args) {
+		int num=1;
+		
+		while(num<=10) {
+			if(num%2==0) {
+				System.out.println(num);
+			}
+		}num++;
+		
+		
+		
+	}
+	
+	
+	
+	
+
+}//10,9,8,7,6,5

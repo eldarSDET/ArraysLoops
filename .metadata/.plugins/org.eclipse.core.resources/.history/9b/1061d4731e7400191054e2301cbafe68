@@ -1,0 +1,12 @@
+package ArrayList1;
+
+public class buyer {
+	
+	
+	public static void main(String[] args) {
+		store buyer1=new store();
+		
+		
+	}
+
+}

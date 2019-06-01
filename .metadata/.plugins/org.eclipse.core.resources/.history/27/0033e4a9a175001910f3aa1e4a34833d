@@ -1,0 +1,30 @@
+package StringBuilder;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class HomePr {
+	public static void main(String[] args) {
+		StringBuilder as=new StringBuilder();
+		as.append("asiyat");
+		as.append(" adzhieva");
+		as.append(" sagitovna");
+		System.out.println(as);
+		as.reverse();
+		System.out.println(as);
+		as.reverse();
+		System.out.println(as);
+		Integer[]nums=new Integer[] {2,4,7,1};
+		System.out.println(Arrays.toString(nums));
+		List<Integer> nums1=Arrays.asList(nums);
+		System.out.println(nums1);
+		Collections.sort(nums1);
+		System.out.println(nums1);
+		System.out.println(Collections.binarySearch(nums1, 4));
+	
+		
+
+	}
+	
+}

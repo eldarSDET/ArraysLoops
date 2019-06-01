@@ -1,0 +1,34 @@
+package NestedIfStatement;
+
+import java.util.Scanner;
+
+public class Example2 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int numberThatYouEntered=scanner.nextInt();
+		int numberToCompareWith=34;
+		
+		if(numberThatYouEntered == numberToCompareWith) {
+			System.out.println("Congratulations "+ numberThatYouEntered+ "is a lucky number") ;
+		}
+		
+		else {
+			System.out.println("Sorry, you have more chances, try again");
+			
+			if(numberThatYouEntered == scanner.nextInt()) {
+				System.out.println("Yay"+ numberThatYouEntered+"is correct");
+				
+				
+			}else {
+				System.out.println("Sorry try again!!!");
+			}
+			
+			
+		}
+		
+		
+		
+	}
+	
+
+}

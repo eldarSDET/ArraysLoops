@@ -1,0 +1,25 @@
+package examples88;
+
+public class CodingBat {
+	public static void main(String[] args) {
+		
+	//Create string array for students. Initialize with students below: James, John, Adam, Elize,Jamie,Benzema.
+		//Loop through each element of students. Print first character of each name on each line.
+		//J
+		
+		String students[]=new String[] {"James","John","Adam","Elize","Jamie","Benzema"};
+		for(int i=0; i<students.length; i++) {
+			//System.out.println(students[i].charAt(0));
+			if(students[i].endsWith("s")) {
+				System.out.println(students[i]);
+			}
+		}
+		
+		
+		
+		
+		
+	}
+	
+
+}

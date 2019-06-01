@@ -1,0 +1,12 @@
+package StringBuilder;
+
+public class SB {
+	public static void main(String[] args) {
+		StringBuilder builder=new StringBuilder();
+		builder.append("hello");
+		builder.reverse();
+		System.out.println(builder);
+	}
+
+}
+	

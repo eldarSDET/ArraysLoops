@@ -1,0 +1,20 @@
+
+public class factorialNum {
+	 public static long factorial(int num) {
+	    	//5 5*4*3*2*1
+	        long res = 1;
+	        for(int i=1;i<=num; i++) {
+	        	res*=i;
+	        }
+
+	        return res;
+	    }
+	 public static void main(String[] args) {
+		 int num1=7;
+		System.out.println(factorial(num1));
+		 
+		
+	}
+
+
+}

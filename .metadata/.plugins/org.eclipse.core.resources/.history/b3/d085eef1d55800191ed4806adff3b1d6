@@ -1,0 +1,53 @@
+package NestedIfStatement;
+
+import java.util.Scanner;
+
+public class nestedIfElseWork3 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter your first name1");
+		String name = scanner.nextLine();
+		
+		if (name.substring(0, 1).equals(name.substring(0,1).toUpperCase())) {
+		
+		System.out.println("Enter your last name");
+		String lastNameEndsWithOva = "ova";
+		String yourLastName = scanner.next();
+		
+		{
+			if (yourLastName.endsWith(lastNameEndsWithOva)) {
+				System.out.println("Welcome madam");
+				
+			}else { 
+				System.out.println("Welcome sir");
+		   }	
+			}
+		} else {
+			System.out.println("Enter first name again2");
+			String nameAgain = scanner.next(); {
+				if (nameAgain.substring(0, 1).equals(nameAgain.substring(0,1).toUpperCase())) {	
+					System.out.println("Enter the last name1");
+				}else {
+					System.out.println("Enter the first name3");
+				}
+				
+			}
+			
+		
+						
+	        	}
+		
+		}
+		
+}	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	

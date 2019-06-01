@@ -1,0 +1,24 @@
+package myPractice;
+
+public class test25 {
+	public static void main(String[] args) {
+		
+	
+	settersAndGettersUdemy p=new settersAndGettersUdemy();
+	p.setHeight(6);
+	p.setWeight(7);
+	System.out.println("p height: "+ p.getHeight());
+	System.out.println("p weight: "+p.getWeight());
+	System.out.println("p area: "+p.getArea());
+	settersAndGettersUdemy p1=new settersAndGettersUdemy();
+	p1.setHeight(8);
+	p1.setWeight(9);
+	
+	
+	
+	
+	
+	
+	
+	}
+}

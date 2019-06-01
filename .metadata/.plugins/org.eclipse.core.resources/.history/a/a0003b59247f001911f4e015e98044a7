@@ -1,0 +1,11 @@
+package Interface;
+
+public class test {
+	public static void main(String[] args) {
+		iphone i=new iphone();
+		i.download();
+		i.call(38489494);
+		
+	}
+
+}

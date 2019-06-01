@@ -1,0 +1,15 @@
+package NestedIfStatement;
+
+import java.util.Scanner;
+
+public class example1 {
+	static public void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Please enter your name:");
+	
+		String name= scanner.next();
+
+}
+}

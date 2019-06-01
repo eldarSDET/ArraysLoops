@@ -1,0 +1,13 @@
+package StringBuilder;
+
+public class HomePr {
+	public static void main(String[] args) {
+		StringBuilder as=new StringBuilder();
+		as.append("asiyat");
+		as.append("adzhieva");
+		as.append("sagitovna");
+		System.out.println(as);
+
+	}
+	
+}

@@ -1,0 +1,20 @@
+package examples88;
+
+public class myWork88 {
+	public static void main(String[] args) {
+		
+		String nub1="Dynosaur";
+		String nub2="Hello";
+		String nub3="Name";
+		String nub4="Last";
+		String nub5="Challenge";
+		String nub6="Robot";
+		String nub7="World";
+		String nub8="Consumption";
+		String nub9="Zookeeper";
+		
+		System.out.println(""+nub1.charAt(5)+""+nub4.charAt(2) + ""+ nub8.charAt(8)+""+nub1.charAt(1)+""+nub5.charAt(2)+""+nub4.charAt(3)+ ""+nub3.charAt(1));
+		System.out.println((""+nub4.charAt(3)).toUpperCase()+""+nub2.charAt(1)+(""+nub8.charAt(0)).toLowerCase()+""+(""+nub2.charAt(0)).toLowerCase()+nub4.charAt(3)+nub2.charAt(4));
+	}
+
+}

@@ -1,0 +1,10 @@
+package ExceptionsExample;
+
+public class CheckedVsUchecked {
+	public static void main(String[] args) {
+		String name=null;
+		int len=name.length();
+		
+	}
+
+}

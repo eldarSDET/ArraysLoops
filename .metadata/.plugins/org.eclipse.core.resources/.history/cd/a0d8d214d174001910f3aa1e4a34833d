@@ -1,0 +1,11 @@
+package StringBuilder;
+
+public class SBMethods {
+	public static void main(String[] args) {
+		StringBuilder word1=new StringBuilder();
+		word1.append("Java");
+		word1.append("Programming");
+		System.out.println(word1);
+	}
+
+}

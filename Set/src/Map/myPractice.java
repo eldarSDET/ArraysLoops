@@ -1,0 +1,19 @@
+package Map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class myPractice {
+	public static void main(String[] args) {
+		
+	
+	Map<String, String>map=new HashMap<>();
+	map.put("a","gift");
+	map.put("b","doll");
+	map.put("c","horse");
+	System.out.println(map);
+	System.out.println(map.get("a"));
+	System.out.println(map);
+	}
+
+}

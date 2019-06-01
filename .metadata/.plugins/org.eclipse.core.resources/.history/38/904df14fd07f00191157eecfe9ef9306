@@ -1,0 +1,19 @@
+package Polymorphysm;
+
+public class grandChild extends child{
+	@Override
+	public void drive() {
+		System.out.println("Child cannot drive");
+	}
+	@Override
+	public void sayHi() {
+		System.out.println("Hi from grandChild class");
+		
+	}
+	public void cry() {
+		System.out.println("Grandchild is crying");
+	}
+	
+	
+
+}

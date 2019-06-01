@@ -1,0 +1,25 @@
+package ArrayList1;
+
+public class ArrayListPractice {
+	/**giving String str="BDAKKLIOPLKK";
+	 * create StringBuilder and do below tasks
+	 * Task1 : delete first and last occurance of "K"
+	 * Task 2: whatever is left from StringBuilder object change the first occurance of K to M
+	 * Task 3: insert "bility" after letter "A"
+	 */
+	public static void main(String[] args) {
+		
+	
+	
+	StringBuilder str=new StringBuilder("BDAKKLIOPLKK");
+	str.delete(0, (str.length()-1));
+	System.out.println(str);
+
+}
+	
+
+
+
+
+
+}

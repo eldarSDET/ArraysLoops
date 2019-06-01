@@ -1,0 +1,25 @@
+package examples88;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class loops {
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		int n=0;
+		do {
+			
+			if(n%2==0) {
+				System.out.println(n);
+				n++;
+			}
+		
+		}while(n<=100);
+		
+		
+		
+	
+		
+	
+	}
+}

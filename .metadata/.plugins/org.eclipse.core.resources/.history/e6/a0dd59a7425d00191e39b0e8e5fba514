@@ -1,0 +1,35 @@
+package ProjectFirstDay;
+
+import java.util.Scanner;
+
+public class myPracticeFromProject {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Available music types are Classical, Pop, Country.");
+		System.out.println("Please enter the music type:");
+		String input = scanner.next();
+		
+		String classical= "classical";
+		String pop="pop";
+		String country="country";
+		String rap ="rap";
+		String rock= "rock";
+		if (input.equals(rock)) {
+			System.out.print("rock is not available");
+		}
+		
+		
+				
+				
+		
+		
+			
+		
+			
+				 
+			
+		
+		
+	}
+
+}

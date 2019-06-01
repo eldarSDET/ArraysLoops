@@ -1,0 +1,11 @@
+package StringBuilder;
+
+public class StringBuilder1 {
+	public static void main(String[] args) {
+		StringBuilder fruit=new StringBuilder();
+		fruit.append("apple");
+		
+		
+	}
+
+}

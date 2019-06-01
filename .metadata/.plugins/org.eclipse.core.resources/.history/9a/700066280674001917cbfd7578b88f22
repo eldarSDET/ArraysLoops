@@ -1,0 +1,21 @@
+package ArrayList1;
+
+import java.util.ArrayList;
+
+public class basicArrayList {
+	public static void main(String[] args) {
+		ArrayList bankCards=new ArrayList();//ArrayList is a class
+		bankCards.add("Visa");
+		bankCards.add("Master Card");
+		bankCards.add(2123456);
+		bankCards.add(false);
+		System.out.println(bankCards);
+		bankCards.add(1, "Amex");
+		System.out.println(bankCards);
+		bankCards.add(3, "Discovery");
+		System.out.println(bankCards);
+		bankCards.add(3,"Chase");
+		System.out.println(bankCards);
+	}
+
+}

@@ -1,0 +1,30 @@
+package Map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapPractice {
+	public static void main(String[] args) {
+		Map dictionary=new HashMap();
+		dictionary.put("Grammar","Straight forward advice on some of the trickiest points of English grammar.");
+		dictionary.put("Spelling ", "This section contains lots of quick"+" tips and other useful guidelines");
+		System.out.println(dictionary.get("Grammar"));
+		System.out.println(dictionary.get("Spelling"));
+		
+		Map dictionary2=new HashMap();
+		dictionary2.put("usage","This section gives you lot of practical advice");
+		dictionary2.putAll(dictionary);
+		System.out.println(dictionary2.get("Spelling"));
+		dictionary.remove("Usage");
+		System.out.println(dictionary2.get("Usage"));
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

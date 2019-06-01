@@ -1,0 +1,41 @@
+package examples88;
+
+import java.util.Scanner;
+
+public class CodingBat {
+	public static void main(String[] args) {
+		
+	//Create string array for students. Initialize with students below: James, John, Adam, Elize,Jamie,Benzema.
+		//Loop through each element of students. Print first character of each name on each line.
+		//J
+		//Read the String from the user using Scanner and print out the players that contains the entered String keyword by user.
+		//Flow:
+		//Please enter your keyword:
+		//Ben
+		//Benzema
+		Scanner sc=new Scanner(System.in);
+		String students[]=new String[] {"James","John","Adam","Elize","Jamie","Benzema"};
+		System.out.println("Please enter your keyword ");
+		
+		for(int i=0; i<students.length; i++) {
+			String keyword=sc.next();
+			if(keyword.contains(students[i].subSequence(0, 0))) {
+				System.out.println(students[i]);
+			}
+			//System.out.println(students[i].charAt(0));
+			//if(students[i].endsWith("s")) {        //if(students[i].contains("s"))
+			//	System.out.println(students[i]);
+		//	}
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+	}
+	
+
+}

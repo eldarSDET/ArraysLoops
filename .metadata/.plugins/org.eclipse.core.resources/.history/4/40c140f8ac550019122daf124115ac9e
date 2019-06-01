@@ -1,0 +1,19 @@
+package examples88;
+
+public class myWork88 {
+	public static void main(String[] args) {
+		
+		String num1="Dynosaur";
+		String num2="Hello";
+		String num3="Name";
+		String num3="Last";
+		String num4="Challenge";
+		String num4="Robot";
+		String num5="World";
+		String num6="Consumption";
+		String num7="Zookeeper";
+		
+		System.out.println(num1);
+	}
+
+}

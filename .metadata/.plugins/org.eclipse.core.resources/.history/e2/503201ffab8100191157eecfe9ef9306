@@ -1,0 +1,16 @@
+package ExceptionsExample;
+
+public class RunTimeException {
+	public static void main(String[] args) {
+		String[]str= {"one","two", "three"};
+		try {
+		System.out.println(str[3]);
+		}catch (Exception e) {
+			System.out.println(e.getClass());
+		}
+		System.out.println("code is done");
+		
+		
+	}
+
+}
