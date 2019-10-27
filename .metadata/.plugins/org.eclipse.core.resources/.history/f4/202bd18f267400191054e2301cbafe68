@@ -1,8 +1,0 @@
-package ArrayList1;
-
-public class JobHunter {
-	public static void main(String[] args) {
-		Job j1=new Job();
-	}
-
-}

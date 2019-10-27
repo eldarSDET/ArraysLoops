@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;myPracticeAtHome.CybertekPractice&apos; to &apos;CybertekPracticeLoop&apos;&#x0D;&#x0A;- Original project: &apos;array&apos;&#x0D;&#x0A;- Original element: &apos;myPracticeAtHome.CybertekPractice&apos;&#x0D;&#x0A;- Renamed element: &apos;myPracticeAtHome.CybertekPracticeLoop&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CybertekPractice&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;myPracticeAtHome{CybertekPractice.java[CybertekPractice" matchStrategy="1" name="CybertekPracticeLoop" qualified="false" references="true" similarDeclarations="false" stamp="1557854987194" textual="false" version="1.0"/>
-</session>

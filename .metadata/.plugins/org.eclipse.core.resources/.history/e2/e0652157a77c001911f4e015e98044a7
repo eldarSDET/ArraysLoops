@@ -1,6 +1,0 @@
-package vehicleInheritance;
-
-public class tuna extends food {
-	
-
-}

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;Map.MyPractice&apos; to &apos;MyPracticeFromAdvGroup&apos;&#x0D;&#x0A;- Original project: &apos;Set&apos;&#x0D;&#x0A;- Original element: &apos;Map.MyPractice&apos;&#x0D;&#x0A;- Renamed element: &apos;Map.MyPracticeFromAdvGroup&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyPractice&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Map{MyPractice.java[MyPractice" matchStrategy="1" name="MyPracticeFromAdvGroup" qualified="false" references="true" similarDeclarations="false" stamp="1559161363618" textual="false" version="1.0"/>
-</session>

@@ -1,9 +1,0 @@
-package vehicleInheritance;
-
-public class car {
-	public car(String make, String message) {
-		System.out.println("This constructor is coming from car class.");
-		;
-	}
-
-}
